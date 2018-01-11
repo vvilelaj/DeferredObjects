@@ -15,6 +15,26 @@ namespace DeferredObjects.Controllers
             return View();
         }
 
+        public IActionResult Google()
+        {
+            return View();
+        }
+
+        public IActionResult ElComercio()
+        {
+            return View();
+        }
+
+        public IActionResult LaRepublica()
+        {
+            return View();
+        }
+
+        public IActionResult Youtube()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
